@@ -5,7 +5,7 @@ print("bienvenido a spinfield")
 print("Hasta luego"+nombre)
 
 cantidad = input("¿cuantas rosquillas hay?")
-print(cantidad+2)
+print(int(cantidad)+2)
 
 print(" CONVERSIONES ")
 print("==== TIENDA DE APU ============")

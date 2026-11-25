@@ -20,9 +20,10 @@ combustible = float(input("Combustible de la nave"))
 
 if (combustible>=75):
     print("Óptimo")
-elif(combustible>)
+elif(combustible>=25):
+    print("Combustible suficiente")
 else:
-    print("Créditos insuficientes")
-    print("Buscar solucion o trueque")
+    print("Combustible insuficiente")
+    print("Buscar estación de recarga")
 
     

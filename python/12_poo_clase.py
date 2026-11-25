@@ -14,5 +14,10 @@ class Guerrero:
 
 goku = Guerrero("Goku", "Sayajin")
 vegeta = Guerrero("Vegeta", "Sayajin")
-vegeta = Guerrero("Piccolo", "Namkiano")
-vegeta = Guerrero("Deyvi", "Humano")
+piccolo = Guerrero("Piccolo", "Namkiano")
+deyvi = Guerrero("Deyvi", "Humano")
+
+goku.mostrar_info()
+vegeta.mostrar_info()
+piccolo.mostrar_info()
+deyvi.mostrar_info()

@@ -1,0 +1,21 @@
+print("Incluir Datos con Input")
+nombre = input("¿Cuál es tu nombre?: ")
+print("¡Hola", nombre, "!")
+print("Bienvenido al sistema de inventario")
+print("Hasta luego " + nombre)
+
+stock_actual = int(input("¿Cuántas unidades hay en bodega?: "))
+print("Stock después de recibir 10 unidades:", stock_actual + 10)
+
+print(" CONVERSIONES ")
+print("==== REGISTRO DE COMPRA A PROVEEDOR ====")
+proveedor = input("Nombre del proveedor: ")
+producto = input("Producto: ")
+costo = float(input("Costo unitario: "))
+cantidad = int(input("Cantidad recibida: "))
+total = costo * cantidad
+print("Proveedor:", proveedor)
+print("Producto:", producto)
+print("Total de la compra: ", total)
+print("Total redondeado: ", round(total, 2))
+print(f"Total a pagar: ${total:.2f}")

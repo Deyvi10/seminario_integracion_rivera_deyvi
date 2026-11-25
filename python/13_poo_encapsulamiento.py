@@ -4,7 +4,7 @@ class Guerrero:
 
     def __init__(self, nombre:str, poder:int):
         self.nombre = nombre
-        self.poder = poder
+        self.__poder = poder
 
     def mostrar_info(self):
         print("Nombre ", self.nombre)
@@ -14,6 +14,11 @@ class Guerrero:
 
 goku = Guerrero("Goku", 90000 )
 vegeta = Guerrero("Vegeta", 6000)
-vegeta = Guerrero("Piccolo", 16000)
-vegeta = Guerrero("Deyvi", 5000)
+piccolo = Guerrero("Piccolo", 16000)
+deyvi = Guerrero("Deyvi", 5000)
+
+goku.mostrar_info()
+vegeta.mostrar_info()
+piccolo.mostrar_info()
+deyvi.mostrar_info()
 

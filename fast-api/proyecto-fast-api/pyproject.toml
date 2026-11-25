@@ -1,7 +1,7 @@
 [project]
 name = "proyecto-fast-api"
 version = "0.1.0"
-description = "Add your description here"
+description = "API de control de inventario con FastAPI"
 readme = "README.md"
 authors = [
     { name = "Deyvi Rivera", email = "deyvi2413@gmail.com" }
